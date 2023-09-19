@@ -36,6 +36,7 @@ import java.util.Objects;
  * Description: 发送消息更新房间收信箱，并同步给房间成员信箱
  * Author: <a href="https://github.com/zongzibinbin">abin</a>
  * Date: 2023-08-12
+ *  上传代码测试
  */
 @RocketMQMessageListener(consumerGroup = MQConstant.SEND_MSG_GROUP, topic = MQConstant.SEND_MSG_TOPIC)
 @Component
